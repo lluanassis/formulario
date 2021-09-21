@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulário de registro</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div class="main">
+	<div class="register"> 
+		<h2>Registre-se aqui</h2>
+		<form id="register" method="post">
+			<label>Nome completo:</label>
+			<br>
+			<input type="text" name="name" id="name" placeholder="Digite seu nome completo">
+			<br><br>
+			<label>Data de nascimento:</label>
+			<br>
+			<input type="date" name="data_nascimento" id="data_nascimento">
+			<br><br>
+			<label>Email:</label>
+			<br>
+			<input type="email" name="email" id="email" placeholder="Digite seu email válido">
+			<br><br>
+			<label>Gênero:</label>
+			<br>
+			<input type="radio" name="gender" id="male">
+			&nbsp;
+			<span id="male">Masculino</span>
+			&nbsp;
+			<input type="radio" name="gender" id="female">
+			&nbsp;
+			<span id="famale">Feminino</span>
+			&nbsp; &nbsp; 
+			<input type="radio" name="gender" id="other1">
+			&nbsp;
+			<span id="other1">Outro</span>
+			<br><br>
+			<label>Idiomas estrangeiros:</label>
+			<br>
+			&nbsp; 
+			<input type="checkbox" name="lang" id="eng">
+			&nbsp;
+			<span id="eng">Inglês</span>
+			&nbsp;
+			<input type="checkbox" name="lang" id="esp">
+			&nbsp;
+			<span id="esp">Espanhol</span>
+			&nbsp;
+			<input type="checkbox" name="lang" id="none">
+			&nbsp;
+			<span id="none">Nenhum</span>
+			&nbsp; 
+			<br>
+			<span id="other">Outro:</span><br>
+			<input type="text" name="lang" id="other" placeholder="Digite seu idioma estrangeiro">
+			<br><br>
+			<input type="submit" value="Enviar" name="submit" id="submit">
+
+		</form>
+	</div>
+	</div>
+</body>
+</html>
